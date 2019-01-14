@@ -37,7 +37,7 @@ function direBonjour(){
     console.log("Bonjour " + naam + "!")
 }
 let salutation = direBonjour();
-prompt("bonjour papa")
+
 
 
 
