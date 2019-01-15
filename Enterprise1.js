@@ -11,7 +11,7 @@ const employees = [
 ]
 
 //* Hoeveel bedraagt de totale loonkost iedere maand?
-/*function totalSalaries(employees) {
+function totalSalaries(employees) {
   let totalSalaries = 0
   for(let i = 0; i< employees.length; i++)
   {
@@ -20,7 +20,7 @@ const employees = [
   return totalSalaries
 }
 assert.equal(totalSalaries(employees), 20652)
-console.log("het total salary is " + totalSalaries(employees))*/
+console.log("het total salary is " + totalSalaries(employees))
 
 //* Welke freelancer verdient het meest?
 function bestPaidFreelancer(employees) {
