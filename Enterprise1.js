@@ -11,7 +11,7 @@ const employees = [
 ]
 
 //* Hoeveel bedraagt de totale loonkost iedere maand?
-function totalSalaries(employees) {
+/*function totalSalaries(employees) {
   let totalSalaries = 0
   for(let i = 0; i< employees.length; i++)
   {
@@ -20,16 +20,15 @@ function totalSalaries(employees) {
   return totalSalaries
 }
 assert.equal(totalSalaries(employees), 20652)
-console.log("het total salary is " + totalSalaries(employees))
+console.log("het total salary is " + totalSalaries(employees))*/
 
 //* Welke freelancer verdient het meest?
 function bestPaidFreelancer(employees) {
   let g = employees[0].name
-
   for (let i = 1; i < employees.length; i++)
   {
-      const huidig = employees [i].name
-      if (huidig.salary > g.salary){
+      const huidig = employees [i]
+      while(huidig.salary> g.salary){
           g = huidig
       }
   
@@ -79,7 +78,7 @@ function longestName(employees) {
     
     assert.equal(longestName(employees), 'Alexander')
     
-    console.log("de langste naam in de lijst is : " +longestName(employees))
+    console.log("de langste naam in de lijst is : " + longestName(employees))
 
 //*  Print de namen van alle werknemers, gesorteerd op voornaam.
 function sortedNames(employees) { 
@@ -88,6 +87,6 @@ function sortedNames(employees) {
 
 assert.deepEqual(sortedNames(employees), ['Alexander', 'Anne', 'Els', 'Igor', 'Marcel', 'Sandra', 'Thomas'])
 
-Console.log("Werknemers gesorteerd op voornam : " + sortedNames(employees))
+console.log("Werknemers gesorteerd op voornam : " + sortedNames(employees))
 
 //*/
