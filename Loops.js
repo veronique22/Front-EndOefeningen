@@ -7,7 +7,7 @@ let lijst = [5,6,8,2,4,7,9,3,0,1]
 function groosteGetal (){
 let g = lijst [0]
 
-for (let i = 0; i < lijst.length; i++)
+for (let i = 1; i < lijst.length; i++)
 {
     const huidig = lijst [i]
     if (huidig > g){
@@ -21,7 +21,7 @@ console.log("de grooste getal is " + groosteGetal())
 // gemiddelde van een lijst getallen
 
 let gemiddelde = 0;
-for (let i = 0; i < lijst.length; i++)
+for (let i = 1; i < lijst.length; i++)
 {
     gemiddelde += lijst[i] / lijst.length
 }
@@ -43,4 +43,4 @@ function LangsteString()
     return g
 
 }
-console.log(LangsteString())
+console.log("de langste string in de lijst is : " +LangsteString())
