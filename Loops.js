@@ -8,7 +8,7 @@ let x = Math.max(lijst)
 console.log(x)
 
 // langste string uit lijst
-
+let namen = ["jan", "paul", "Laure", "Bertin"]
 // gemiddelde van een lijst getallen
 
 // check of een string een palindroom is

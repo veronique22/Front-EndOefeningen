@@ -38,6 +38,22 @@ function direBonjour(){
 }
 let salutation = direBonjour();
 
+const stylo = {
+    type: "bille",
+    couleur: "bleu",
+    marque: "Bic"
+  };
+  
+  console.log(stylo.type); // "bille"
+  console.log(stylo.couleur); // "bleu"
+  console.log(stylo.marque); // "Bic"
+  stylo.couleur = "rouge"
+  console.log(stylo.couleur); // "rouge"
+ 
+  
+  // "J'écris avec un stylo bille bleu de marque Bic"
+  console.log(`J'écris avec un stylo ${stylo.type} ${stylo.couleur} de marque ${stylo.marque}`);
+  
 
-
-
+stylo.prix = 3.50;
+console.log("mon stylo coute" +  ${stylo.prix } + "euros")
