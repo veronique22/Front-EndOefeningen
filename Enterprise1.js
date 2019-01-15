@@ -29,7 +29,7 @@ function bestPaidFreelancer(employees) {
   for (let i = 1; i < employees.length; i++)
   {
       const huidig = employees [i].name
-      if (huidig.salary> g.salary){
+      if (huidig.salary > g.salary){
           g = huidig
       }
   
