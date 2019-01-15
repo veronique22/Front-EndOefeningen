@@ -53,7 +53,4 @@ const stylo = {
   
   // "J'écris avec un stylo bille bleu de marque Bic"
   console.log(`J'écris avec un stylo ${stylo.type} ${stylo.couleur} de marque ${stylo.marque}`);
-  
 
-stylo.prix = 3.50;
-console.log("mon stylo coute" +  ${stylo.prix } + "euros")
